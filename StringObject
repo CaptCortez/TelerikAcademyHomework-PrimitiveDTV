@@ -1,0 +1,18 @@
+using System;
+
+namespace StringsObjects
+{
+    class StringObj
+    {
+        static void Main()
+        {
+            Console.Title = "String \'n\' Objects";
+            string hello = "Hello";
+            string world = "World";
+            object helloWorld = hello + " " + world;
+            string greeting = (string)helloWorld;
+
+            Console.WriteLine(greeting);
+        }
+    }
+}
