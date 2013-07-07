@@ -1,0 +1,20 @@
+using System;
+
+namespace CalculateFloat
+{
+    class CompareFloat
+    {
+        static void Main()
+        {
+            Console.Title = "Compare Floats";
+            float a = 1.2674390f;
+            float b = 1.2674380f;
+            float c = 1.000000003f;
+            float d = 1.000000002f;
+            bool isEqualAB = (a == b);
+            Console.WriteLine("1.2674390f = 1.2674380f ---> " + isEqualAB);
+            bool isEqualCD = (c == d);
+            Console.WriteLine("1.000000003457f = 1.000000002234f ---> " + isEqualCD);
+        }
+    }
+}
