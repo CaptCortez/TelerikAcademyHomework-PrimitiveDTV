@@ -1,0 +1,20 @@
+using System;
+
+namespace TheFirm
+{
+    class TheFirm
+    {
+        static void Main()
+        {
+            Console.Title = "The Firm";
+            string firstName = "Georgi";
+            string lastName = "Sotirov";
+            int age = 24;
+            char gender = 'M';
+            long id = 194067943;
+            ulong persEmplNumber = 27564300;
+
+            Console.WriteLine("First Name: {0}\nLast Name: {1}\nAge: {2}\nGender: {3}\nID number: {4}\nPersonal Employee Number: {5}\n", firstName, lastName, age, gender, id, persEmplNumber);
+        }
+    }
+}
