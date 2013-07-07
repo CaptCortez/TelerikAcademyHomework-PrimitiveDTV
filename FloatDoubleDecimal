@@ -1,0 +1,23 @@
+using System;
+
+namespace FloatDouble
+{
+    class FloatDoubleDecimal
+    {
+        static void Main()
+        {
+            Console.Title = "Float, Double or Decimal";
+
+            double number = 34.567839023;
+            Console.WriteLine("The number {0} can be assigned to the type double!", number);
+            float number2 = 12.345f;
+            Console.WriteLine("The number {0} can be assigned to the type float!", number2);
+            double number3 = 8923.1234857;
+            Console.WriteLine("The number {0} can be assigned to the type double!", number3);
+            decimal number4 = 3456.091124875956542151256683467m;
+            Console.WriteLine("The number {0} can be assigned to the type decimal, but it's too long!", number4);
+
+
+        }
+    }
+}
