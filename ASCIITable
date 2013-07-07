@@ -1,0 +1,23 @@
+using System;
+using System.Text;
+
+namespace ASCIITable
+{
+    class asciiTable
+    {
+        static void Main()
+        {
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.Title = "ASCII Table Output";
+            int min = 0;
+            int max = 256;
+            for (int i = min; i < max; i++)
+            {
+                // Get ascii character.
+                Console.Write((char)i + ", ");
+
+            }
+
+        }
+    }
+}
