@@ -1,0 +1,26 @@
+using System;
+
+namespace NullValues
+{
+    class nullValues
+    {
+        static void Main()
+        {
+            Console.Title = "Null Values Output";
+            int? nullable = null;
+            Console.WriteLine("Null value of nullable: {0}", nullable);
+            double? nullDouble = null;
+            Console.WriteLine("Null value of nullDouble: {0}", nullDouble);
+
+            nullable = 10;
+            nullDouble = 23;
+
+            int nullableVal = nullable.GetValueOrDefault();
+            double nullDoubleVal = nullDouble.GetValueOrDefault();
+
+            Console.WriteLine("The value of nullable is: {0}", nullableVal);
+
+            Console.WriteLine("The value of nullDoubleVal is: {0}", nullDoubleVal);
+        }
+    }
+}
