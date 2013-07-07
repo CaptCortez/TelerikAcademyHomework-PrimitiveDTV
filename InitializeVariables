@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Variables
+{
+    class Variables
+    {
+        static void Main(string[] args)
+        {
+            Console.Title = "Declaring Variables";
+            ushort posShortNum = 52130;
+            sbyte negNum = -115;
+            uint longIntNum = 44825932;
+            byte num = 97;
+            short negShortNum = -10000;
+            ushort shortNum = 20000;
+            byte posNum = 224;
+            uint longNum = 970700000;
+            byte posNum2 = 112;
+            sbyte negNum2 = -44;
+            int negLongNum = -1000000;
+            ushort posNum3 = 1990;
+            ulong longNum2 = 123456789123456789;
+
+            Console.WriteLine(posShortNum + "   " + negNum + "   " + longIntNum + "   " + num + "   " + negShortNum + "   " + shortNum + "   " + posNum + "   " + longNum + "   " + posNum2 + "   " + negNum2 + "   " + negLongNum + "   " + posNum3 + "   " + longNum2);
+        }
+    }
+}
