@@ -1,0 +1,25 @@
+using System;
+
+namespace BankAccount
+{
+    class BankAccount
+    {
+        static void Main()
+        {
+            Console.Title = "Bank Account Info";
+
+            string firstName = "Georgi";
+            string middleName = "Vasilev";
+            string lastName = "Sotirov";
+            string fullName = firstName + " " + middleName + " " + lastName;
+            decimal balance = 123987456.45m;
+            string bankName = "International Investment Bank";
+            string bicCode = "BUIBGSF024";
+            ulong creditCardNumberFirst = 4260895423479086;
+            ulong creditCardNumberSecond = 30967763764795664;
+            ulong creditCardNumberThird = 44097826908212098;
+
+            Console.WriteLine("Your Bank Account Info:\n  Full Name: {0}\n  Balance: {1}\n  Bank Name: {2}\n  BIC Code: {3}\n  First Credit Card Number: {4}\n  Second Credit Card Number: {5}\n  Third Credit Card Number: {6}\n  ", fullName, balance, bankName, bicCode, creditCardNumberFirst, creditCardNumberSecond, creditCardNumberThird);
+        }
+    }
+}
