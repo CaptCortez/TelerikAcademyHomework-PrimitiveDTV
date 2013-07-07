@@ -1,0 +1,17 @@
+using System;
+
+namespace StringVars
+{
+    class QuotedStrings
+    {
+        static void Main()
+        {
+            Console.Title = "Quoted Strings";
+            string quotation1 = "The \"use\" of quatations causes difficulties.";
+            string quotation2 = @"The ""use"" of quatations causes difficulties.";
+
+            Console.WriteLine(quotation1);
+            Console.WriteLine(quotation2);
+        }
+    }
+}
