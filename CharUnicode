@@ -1,0 +1,17 @@
+using System;
+
+namespace CharUnicode
+{
+    class CharUnicode
+    {
+        static void Main()
+        {
+            Console.Title = "Char to Unicode Symbols";
+            char symbol = '\u0072';
+            Console.WriteLine("The int value of '{0}' is : {1}", symbol, (int)symbol);
+
+            int symbol2 = 72;
+            Console.WriteLine("The char value of '{0}' is : {1}", symbol2, (char)symbol2);
+        }
+    }
+}
