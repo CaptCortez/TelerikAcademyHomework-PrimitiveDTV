@@ -1,0 +1,37 @@
+using System;
+using System.Text;
+
+namespace Heart
+{
+    class Heart
+    {
+        static void Main()
+        {
+            Console.OutputEncoding = Encoding.Unicode;
+            char o = '\u00A9';
+            Console.Title = "Heart Shape Made of " + o + " Symbols";
+
+            Console.WriteLine("   {0}{0}{0}{0}{0}{0}        {0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine(" {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}    {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine(" {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("  {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("   {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("    {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("     {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("      {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("       {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("        {0}{0}{0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("         {0}{0}{0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("          {0}{0}{0}{0}{0}{0}{0}", o);
+            Console.WriteLine("           {0}{0}{0}{0}{0}", o);
+            Console.WriteLine("            {0}{0}{0}", o);
+        }
+
+        private static Encoding UnicodeEncoding()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
